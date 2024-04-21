@@ -2,7 +2,6 @@ import { Home } from "@/components/Home";
 import About from "@/components/About";
 import Skill from "@/components/Skill";
 import LatestProject from "@/components/LatestProject";
-import Footer from "@/components/Footer";
 
 export default function page() {
   return (
@@ -11,7 +10,6 @@ export default function page() {
       <About />
       <Skill />
       <LatestProject/>
-      <Footer />
     </main>
   );
 }

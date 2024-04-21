@@ -2,7 +2,7 @@
 import Image from "next/image";
 const Skill = () => {
   return (
-    <div className="mt-16">
+    <div className=" mt-40">
       <h1 className="text-4xl text-slate-200 bg-center text-center mt-4 mb-10 ml-2 font-bold bg-clip-text  bg-gradient-to-b ">
         Skills
       </h1>
@@ -187,6 +187,18 @@ const Skill = () => {
             width={70}
           />
           <h6>Graphql</h6>
+        </div>
+
+        <div className="flex flex-col items-center">
+          <Image
+            src={
+              "https://res.cloudinary.com/ddjdz0aqe/image/upload/v1713682492/logo_a21g7j.png"
+            }
+            alt="redux"
+            height={70}
+            width={70}
+          />
+          <h6>React Redux</h6>
         </div>
       </div>
     </div>
