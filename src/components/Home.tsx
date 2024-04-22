@@ -5,6 +5,8 @@ import Link from "next/link";
 import { HoverBorderGradient } from "./ui/hover-border-gradient";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { AiOutlineShareAlt } from "react-icons/ai";
+import { CiLocationArrow1 } from "react-icons/ci";
+
 
 export function Home() {
   return (
@@ -26,7 +28,7 @@ export function Home() {
                 as="button"
                 className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
               >
-                <AiOutlineShareAlt />
+                <AiOutlineShareAlt className="text-xl" />
                 <span>Contact</span>
               </HoverBorderGradient>
             </Link>
@@ -36,7 +38,7 @@ export function Home() {
                 as="button"
                 className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
               >
-                <MdOutlineFileDownload />
+                <CiLocationArrow1 className="text-xl" />
                 <span>Resume</span>
               </HoverBorderGradient>
             </Link>

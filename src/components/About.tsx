@@ -24,7 +24,7 @@ const About = () => {
           <div className="mt-4 mr-8 font-normal text-base text-neutral-300">
             I am a Full Stack Developer and passionate about learning new
             things, a quick learner, a problem solver, and a highly motivated
-            software developer.
+            software engineer.
           
             <h1 className="mt-8 font-semibold text-lg text-orange-500">Education</h1>
             <div className="flex flex-col mr-36">
