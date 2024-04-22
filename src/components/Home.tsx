@@ -3,7 +3,6 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { HoverBorderGradient } from "./ui/hover-border-gradient";
-import { MdOutlineFileDownload } from "react-icons/md";
 import { AiOutlineShareAlt } from "react-icons/ai";
 import { CiLocationArrow1 } from "react-icons/ci";
 
@@ -57,15 +56,4 @@ export function Home() {
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
     </div>
   );
-}
-
-{
-  /* <Link href={"#"}>
-  <Button
-    borderRadius="1.75rem"
-    className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
-  >
-    Contact
-  </Button>
-</Link>; */
 }

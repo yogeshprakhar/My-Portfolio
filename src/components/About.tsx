@@ -5,7 +5,7 @@ import Link from "next/link";
 const About = () => {
   return (
     <div className="mt-32">
-      <h1 className="text-center text-4xl mt-4 mb-10 ml-2 font-bold bg-clip-text bg-gradient-to-b text-gray-100">
+      <h1 className="text-center text-4xl mt-4 mb-10 ml-2 font-bold bg-clip-text text-stone-300">
         About Me
       </h1>
       <div className=" mt-16 grid grid-cols-2 justify-center items-center">
@@ -25,8 +25,9 @@ const About = () => {
             I am a Full Stack Developer and passionate about learning new
             things, a quick learner, a problem solver, and a highly motivated
             software engineer.
-          
-            <h1 className="mt-8 font-semibold text-lg text-orange-500">Education</h1>
+            <h1 className="mt-8 font-semibold text-lg text-orange-500">
+              Education
+            </h1>
             <div className="flex flex-col mr-36">
               <div className="flex flex-col hover:bg-slate-800 rounded-lg p-2">
                 <div className="flex justify-between">
@@ -57,7 +58,9 @@ const About = () => {
               </div>
             </div>
           </div>
-          <h1 className="mt-8 font-semibold text-lg text-orange-500">Socials connect</h1>
+          <h1 className="mt-8 font-semibold text-lg text-orange-500">
+            Socials connect
+          </h1>
           <div className="mt-2 flex gap-6">
             <Link target="_blank" href={"https://github.com/yogeshprakhar"}>
               <Image
