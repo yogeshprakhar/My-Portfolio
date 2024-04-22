@@ -1,4 +1,3 @@
-
 import ProjectCard from "@/components/ProjectCard";
 import { projectData } from "@/data/projectData";
 
@@ -11,9 +10,8 @@ const page = () => {
       </h1>
       <div className="mt-9 items-center flex flex-wrap justify-evenly gap-4">
         {projectData.map((item) => (
-          <div className="p-8 flex flex-col">
+          <div key={item.name} className="p-8 flex flex-col">
             <ProjectCard
-              key={item.name}
               name={item.name}
               imageUrl={item.imageUrl}
               projectLink={item.projectLink}
