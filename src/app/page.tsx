@@ -3,6 +3,7 @@ import About from "@/components/About";
 import Skill from "@/components/Skill";
 import LatestProject from "@/components/LatestProject";
 
+
 export default function page() {
   return (
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">

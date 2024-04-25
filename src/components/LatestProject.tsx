@@ -14,7 +14,7 @@ export type ProjectData = {
 const LatestProject = () => {
   return (
     <div className="pb-20">
-      <h1 className="mt-32 text-center mb-32 text-4xl ml-2 font-bold bg-clip-text text-transparent bg-gradient-to-b text-stone-300">
+      <h1 className="mt-32 text-center mb-32 text-4xl ml-2 font-bold bg-clip-text bg-gradient-to-b text-stone-300">
         Latest Projects
       </h1>
       <div className=" items-center flex flex-wrap justify-evenly gap-5">
