@@ -13,12 +13,12 @@ const ProjectCard = (data:ProjectData) => {
     <div className="">
       <div className=" flex flex-row justify-evenly">
         <BackgroundGradient className=" rounded-[22px] max-w-sm p-4 bg-white dark:bg-zinc-900">
-          <div className="relative group">
+          <div className="relative group flex items-center justify-center">
             <Image
               src={data.imageUrl}
               alt="project"
-              height={600}
-              width={600}
+              height={350}
+              width={350}
               className="object-contain rounded-3xl relative group "
             />
             <Link

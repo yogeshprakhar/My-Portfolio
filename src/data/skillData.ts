@@ -45,6 +45,11 @@ export const skillData = [
     key: "git",
   },
   {
+    url: "https://res.cloudinary.com/ddjdz0aqe/image/upload/v1714030865/1012821_code_development_logo_mysql_icon_vbhzih.png",
+    name: "MySQL",
+    key: "mysql",
+  },
+  {
     url: "https://res.cloudinary.com/ddjdz0aqe/image/upload/v1713431771/1012822_code_development_logo_mongodb_programming_icon_lemhuz.png",
     name: "MongoDB",
     key: "mongodb",
@@ -54,21 +59,21 @@ export const skillData = [
     name: "React Native",
     key: "ReactNative",
   },
-  {
-    url: "https://res.cloudinary.com/ddjdz0aqe/image/upload/v1713431773/Postgresql_elephant.svg_lxv24y.png",
-    name: "Postgresql",
-    key: "Postgresql",
-  },
-  {
-    url: "https://res.cloudinary.com/ddjdz0aqe/image/upload/v1713431772/2993785_docker_social_media_icon_x6efhf.png",
-    name: "Docker",
-    key: "docker",
-  },
-  {
-    url: "https://res.cloudinary.com/ddjdz0aqe/image/upload/v1713431033/graphql_sjcz6q.png",
-    name: "Graphql",
-    key: "Graphql",
-  },
+  // {
+  //   url: "https://res.cloudinary.com/ddjdz0aqe/image/upload/v1713431773/Postgresql_elephant.svg_lxv24y.png",
+  //   name: "Postgresql",
+  //   key: "Postgresql",
+  // },
+  // {
+  //   url: "https://res.cloudinary.com/ddjdz0aqe/image/upload/v1713431772/2993785_docker_social_media_icon_x6efhf.png",
+  //   name: "Docker",
+  //   key: "docker",
+  // },
+  // {
+  //   url: "https://res.cloudinary.com/ddjdz0aqe/image/upload/v1713431033/graphql_sjcz6q.png",
+  //   name: "Graphql",
+  //   key: "Graphql",
+  // },
   {
     url: "https://res.cloudinary.com/ddjdz0aqe/image/upload/v1713682492/logo_a21g7j.png",
     name: "React Redux",
