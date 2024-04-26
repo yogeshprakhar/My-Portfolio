@@ -21,7 +21,7 @@ export function Home() {
             </h1>
           </div>
           <div className="flex gap-5 pl-10">
-            <Link target="_blank" href={"#"}>
+            <Link target="_blank" href={"mailto:yogeshprakhar50226@gmail.com"}>
               <HoverBorderGradient
                 containerClassName="rounded-full"
                 as="button"
@@ -31,7 +31,12 @@ export function Home() {
                 <span>Contact</span>
               </HoverBorderGradient>
             </Link>
-            <Link target="_blank" href={"#"}>
+            <Link
+              target="_blank"
+              href={
+                "https://drive.google.com/file/d/1Wd4NPCXSQwdft1vVHzLyH9aldzcsPGKO/view?usp=sharing"
+              }
+            >
               <HoverBorderGradient
                 containerClassName="rounded-full"
                 as="button"
