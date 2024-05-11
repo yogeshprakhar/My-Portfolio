@@ -1,5 +1,16 @@
 export const projectData = [
   {
+    name: "FoodEat",
+    imageUrl:
+      "https://res.cloudinary.com/ddjdz0aqe/image/upload/v1715442295/Screenshot_2024-05-11_211207_oegtqd.jpg",
+    projectLink: "https://foodeatt.netlify.app/",
+    githubLink: "https://github.com/yogeshprakhar/Food-Eat-Frontend",
+    descOne:
+      "Technologies used - React.js, TypeScript, MongoDB, Shadcn UI, Auth0 and many more",
+    descTwo:
+      "Food Ordering Platform for ordering food, have admin page for restaurant owner and have live tracking of ordered food. Use Auth0 for authorization and jwt token for authetication, use zod for frontend form validation and express validation for backend validation",
+  },
+  {
     name: "Hotel Book Karo",
     imageUrl:
       "https://res.cloudinary.com/ddjdz0aqe/image/upload/v1713435403/Screenshot_152_be4yhn.png",

@@ -1,14 +1,14 @@
 export const latestProjectData = [
   {
-    name: "Hotel Book Karo",
+    name: "FoodEat",
     imageUrl:
-      "https://res.cloudinary.com/ddjdz0aqe/image/upload/v1713435403/Screenshot_152_be4yhn.png",
-    projectLink: "https://hotel-booking-xrw9.onrender.com/",
-    githubLink: "https://github.com/yogeshprakhar/Hotel-Booking",
+      "https://res.cloudinary.com/ddjdz0aqe/image/upload/v1715442295/Screenshot_2024-05-11_211207_oegtqd.jpg",
+    projectLink: "https://foodeatt.netlify.app/",
+    githubLink: "https://github.com/yogeshprakhar/Food-Eat-Frontend",
     descOne:
-      "Technologies used - React.js, Express.js, MongoDB, Cloudinary, React-hook forms and many more.",
+      "Technologies used - React.js, TypeScript, MongoDB, Shadcn UI, Auth0 and many more",
     descTwo:
-      "Projects used Context Api for passing data and React Query for fetching data from backend and have functionalities Signup, Login, Logout, Sorting, Searching and Pagination.",
+      "Food Ordering Platform for ordering food, have admin page for restaurant owner and have live tracking of ordered food. Use Auth0 for authorization and jwt token for authetication, use zod for frontend form validation and express validation for backend validation",
   },
   {
     name: "Real-time Editor",
