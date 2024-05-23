@@ -12,7 +12,7 @@ const ProjectCard = (data:ProjectData) => {
   return (
     <div className="">
       <div className=" flex flex-row justify-evenly">
-        <BackgroundGradient className=" rounded-[22px] max-w-sm p-4 bg-white dark:bg-zinc-900">
+        <BackgroundGradient className=" rounded-[22px] max-w-sm p-4 bg-zinc-900">
           <div className="relative group flex items-center justify-center">
             <Image
               src={data.imageUrl}

@@ -3,7 +3,7 @@ import { projectData } from "@/data/projectData";
 
 const page = () => {
   return (
-    <div className=" mt-28 mb-14 flex flex-col items-center justify-center">
+    <div className="min-h-screen bg-stone-900 pt-28  flex flex-col items-center justify-center">
       <h1 className="font-semibold text-4xl text-center text-stone-300">
         {" "}
         All Projects{" "}
