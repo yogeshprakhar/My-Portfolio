@@ -1,5 +1,4 @@
 "use client";
-import { skillData } from "@/data/skillData";
 import Image from "next/image";
 
 const Skill = () => {
@@ -49,30 +48,5 @@ const Skill = () => {
     </div>
   );
 };
-
-// <div className="p-4 md:mt-12 md:p-16 md:gap-10 gap-2 flex flex-wrap">
-//   {skillData.map((item) => (
-//     <div
-//       key={item.key}
-//       className="flex flex-col items-center justify-between p-4"
-//     >
-//       <Image src={item.url} alt={item.name} height={50} width={50} />
-//       <h6>{item.name}</h6>
-//     </div>
-//   ))}
-//   {/*  Can not find the next js logo */}
-//   <div className="flex flex-col items-center justify-between gap-1">
-//     <Image
-//       className="bg-white rounded-full border"
-//       src={
-//         "https://res.cloudinary.com/ddjdz0aqe/image/upload/v1713431771/9118036_nextjs_fill_icon_i60vqa.png"
-//       }
-//       alt="next js"
-//       height={70}
-//       width={70}
-//     />
-//     <h6>Next js</h6>
-//   </div>
-// </div>;
 
 export default Skill;
