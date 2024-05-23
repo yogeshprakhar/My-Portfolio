@@ -17,8 +17,8 @@ const ProjectCard = (data:ProjectData) => {
             <Image
               src={data.imageUrl}
               alt="project"
-              height={350}
-              width={350}
+              height={400}
+              width={400}
               className="object-contain rounded-3xl relative group "
             />
             <Link

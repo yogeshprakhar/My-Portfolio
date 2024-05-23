@@ -2,18 +2,29 @@ export const latestProjectData = [
   {
     name: "FoodEat",
     imageUrl:
-      "https://res.cloudinary.com/ddjdz0aqe/image/upload/v1715442295/Screenshot_2024-05-11_211207_oegtqd.jpg",
+      "https://res.cloudinary.com/ddjdz0aqe/image/upload/v1716480902/food_eat_fv0gv1.jpg",
     projectLink: "https://foodeatt.netlify.app/",
     githubLink: "https://github.com/yogeshprakhar/Food-Eat-Frontend",
     descOne:
       "Technologies used - React.js, TypeScript, MongoDB, Shadcn UI, Auth0 and many more",
     descTwo:
-      "Food Ordering Platform for ordering food, have admin page for restaurant owner and have live tracking of ordered food. Use Auth0 for authorization and jwt token for authetication, use zod for frontend form validation and express validation for backend validation",
+      "Food Ordering Platform, have admin page for restaurant owner and have live tracking of ordered food. Use Auth0 for authorization & authetication, use zod and express validator for validation.",
+  },
+  {
+    name: "Story Speak",
+    imageUrl:
+      "https://res.cloudinary.com/ddjdz0aqe/image/upload/v1716479893/Screenshot_2024-05-23_212036_xtnhww.jpg",
+    projectLink: "https://trauma-blog-app.onrender.com/",
+    githubLink: "https://github.com/yogeshprakhar/Trauma-blog-app",
+    descOne:
+      "Technologies used - React.js, Redux, Node.js, Express.js, Firebase",
+    descTwo:
+      "A blog app where you can read stories of different genre like horror, scifi, comedy etc, blog have admin where he can control the blog application and only he can post stories for quality stories",
   },
   {
     name: "Real-time Editor",
     imageUrl:
-      "https://res.cloudinary.com/ddjdz0aqe/image/upload/v1713436204/Screenshot_153_xftmpu.png",
+      "https://res.cloudinary.com/ddjdz0aqe/image/upload/v1716480902/Screenshot_2024-05-23_214429_dkqkq1.jpg",
     projectLink: "https://realtimeditor.netlify.app/",
     githubLink: "https://github.com/yogeshprakhar/Realtime-Code-Editor",
     descOne:

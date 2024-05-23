@@ -25,7 +25,10 @@ const About = () => {
             <p className="text-balance">
               I am a Full Stack Developer and passionate about learning new
               things, a quick learner, a problem solver, and a highly motivated
-              software engineer.
+              software developer entering the industry with a strong foundation
+              in full-stack development. My skill set includes Java, JavaScript,
+              TypeScript, Node.js,Express.js, React.js and React Native, and proficient in
+              MongoDB and MySQL databases.
             </p>
             <h1 className="mt-8 ml-1 mb-1 font-semibold text-xl text-orange-500">
               Education
