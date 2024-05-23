@@ -14,14 +14,14 @@ export function Home() {
       <div className="min-h-screen flex w-full flex-row justify-evenly">
         <div className="flex flex-col justify-center">
           <div>
-            <h2 className="md:ml-2 text-4xl md:mb-1 p-3 text-center font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
+            <h2 className="md:pl-2 text-4xl md:pb-2 pb-5  text-center md:text-start font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
               Hello, my name is
             </h2>
-            <h1 className="md:ml-2 text-center md:pb-4 p-6 text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
+           <h1 className="md:pl-2 text-center md:text-start pb-7 md:pb-6 text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
               Yogesh Prakhar
             </h1>
           </div>
-          <div className="flex gap-5 md:pl-2 justify-evenly">
+          <div className="flex gap-10 md:pl-2 md:justify-start justify-center">
             <Link target="_blank" href={"mailto:yogeshprakhar50226@gmail.com"}>
               <HoverBorderGradient
                 containerClassName="rounded-full"
@@ -48,7 +48,7 @@ export function Home() {
               </HoverBorderGradient>
             </Link>
           </div>
-          <div className="md:pt-5 md:pl-4 pt-10 flex justify-center gap-6">
+          <div className="md:pt-5 md:pl-4 pt-10 flex md:justify-start justify-center gap-6">
             <Link target="_blank" href={"https://github.com/yogeshprakhar"}>
               <FaGithub
                 size={35}
