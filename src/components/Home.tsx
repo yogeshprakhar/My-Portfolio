@@ -17,7 +17,16 @@ export function Home() {
             <h2 className="md:pl-2 text-4xl md:pb-2 pb-5  text-center md:text-start font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
               Hello, my name is
             </h2>
-           <h1 className="md:pl-2 text-center md:text-start pb-7 md:pb-6 text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
+            <div className="flex flex-col items-center justify-center md:pb-0 pb-2">
+              <Image
+                className=" rounded-3xl block md:hidden"
+                src={"/cowboy-bebop.jpg"}
+                width={200}
+                height={200}
+                alt="Picture of author"
+              />
+            </div>
+            <h1 className="md:pl-2 text-center md:text-start pb-7 md:pb-6 text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
               Yogesh Prakhar
             </h1>
           </div>

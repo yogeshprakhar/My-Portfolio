@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const Skill = () => {
   return (
-    <div className="bg-stone-900 pb-32">
-      <h1 className="text-4xl bg-center text-center font-bold bg-clip-text text-stone-300 pb-8 md:pb-16 ">
+    <div className="bg-stone-900 pt-12 md:pt-0 pb-32">
+      <h1 className="text-4xl bg-center text-center font-bold bg-clip-text text-stone-300 pb-10 md:pb-16 ">
         Skills
       </h1>
 
