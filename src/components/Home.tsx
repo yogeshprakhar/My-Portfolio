@@ -44,7 +44,7 @@ export function Home() {
             <Link
               target="_blank"
               href={
-                "https://drive.google.com/file/d/1s4k02O6MubLciVjTEwQwHOxH25PvIU13/view?usp=sharing"
+                "https://drive.google.com/file/d/1s4k02O6MubLciVjTEwQwHOxH25PvIU13/view"
               }
             >
               <HoverBorderGradient
