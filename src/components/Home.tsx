@@ -92,7 +92,7 @@ export function Home() {
         </div>
         <div className="flex flex-col items-center justify-center">
           <Image
-            className="rounded-full hidden md:block"
+            className=" rounded-3xl hidden md:block"
             src={"/one.jpg"}
             width={350}
             height={350}
