@@ -9,6 +9,7 @@ import { FaGithub, FaInstagram } from "react-icons/fa";
 import { FaLinkedin, FaSquareXTwitter } from "react-icons/fa6";
 
 export function Home() {
+  
   return (
     <div className="h-[50rem] w-full bg-stone-900 bg-grid-white/[0.2]  relative flex items-center justify-center">
       <div className="min-h-screen flex w-full flex-row justify-evenly">
